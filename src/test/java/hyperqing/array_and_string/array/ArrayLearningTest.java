@@ -3,8 +3,6 @@ package hyperqing.array_and_string.array;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class ArrayLearningTest {
 
     @Test
@@ -15,5 +13,9 @@ public class ArrayLearningTest {
 
         int[] nums2 = {-1, -1, -1, 0, 1, 1};
         Assert.assertEquals(0, arrayLearning.pivotIndex(nums2));
+    }
+
+    public void dominantIndex(){
+
     }
 }
